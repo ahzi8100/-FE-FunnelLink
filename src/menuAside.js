@@ -11,6 +11,7 @@ import {
   mdiResponsive,
   mdiPalette,
   mdiReact,
+  mdiDeveloperBoard,
 } from "@mdi/js";
 
 export default [
@@ -18,6 +19,11 @@ export default [
     to: "/",
     icon: mdiMonitor,
     label: "Dashboard",
+  },
+  {
+    to: "/board-funneling",
+    icon: mdiDeveloperBoard,
+    label: "Board Funneling",
   },
   {
     to: "/tables",

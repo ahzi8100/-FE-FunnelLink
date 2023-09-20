@@ -6,10 +6,10 @@ import {
   mdiGithub,
 } from "@mdi/js";
 import SectionMain from "@/components/SectionMain.vue";
+import LayoutAuthenticated from "@/layouts/LayoutAuthenticated.vue";
 import NotificationBar from "@/components/NotificationBar.vue";
 import TableSampleClients from "@/components/TableSampleClients.vue";
 import CardBox from "@/components/CardBox.vue";
-import LayoutAuthenticated from "@/layouts/LayoutAuthenticated.vue";
 import SectionTitleLineWithButton from "@/components/SectionTitleLineWithButton.vue";
 import BaseButton from "@/components/BaseButton.vue";
 import CardBoxComponentEmpty from "@/components/CardBoxComponentEmpty.vue";
@@ -19,15 +19,8 @@ import CardBoxComponentEmpty from "@/components/CardBoxComponentEmpty.vue";
   <LayoutAuthenticated>
     <SectionMain>
       <SectionTitleLineWithButton :icon="mdiTableBorder" title="Tables" main>
-        <BaseButton
-          href="https://github.com/justboil/admin-one-vue-tailwind"
-          target="_blank"
-          :icon="mdiGithub"
-          label="Star on GitHub"
-          color="contrast"
-          rounded-full
-          small
-        />
+        <BaseButton href="https://github.com/justboil/admin-one-vue-tailwind" target="_blank" :icon="mdiGithub"
+          label="Star on GitHub" color="contrast" rounded-full small />
       </SectionTitleLineWithButton>
       <NotificationBar color="info" :icon="mdiMonitorCellphone">
         <b>Responsive table.</b> Collapses on mobile

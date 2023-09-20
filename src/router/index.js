@@ -14,6 +14,14 @@ const routes = [
   },
   {
     meta: {
+      title: "Board Funneling",
+    },
+    path: "/board-funneling",
+    name: "board funneling",
+    component: () => import('@/views/BoardFunnelingView.vue'),
+  },
+  {
+    meta: {
       title: "Tables",
     },
     path: "/tables",

@@ -12,7 +12,7 @@ const year = new Date().getFullYear();
       <div class="text-center md:text-left">
         <b
           >&copy;{{ year }},
-          <a href="https://justboil.me/" target="_blank">JustBoil.me</a>.</b
+          <a href="#" target="_blank">FunnelLink.com</a>.</b
         >
         <slot />
       </div>
