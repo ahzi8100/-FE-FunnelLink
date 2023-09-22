@@ -21,7 +21,7 @@ export default [
     label: "Dashboard",
   },
   {
-    to: "/board-funneling",
+    to: "/boards",
     icon: mdiDeveloperBoard,
     label: "Board Funneling",
   },

@@ -1,0 +1,39 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "board_id": "1",
+      "label": "5",
+      "title": "Inbox",
+      "color": "info"
+    },
+    {
+      "id": "2",
+      "board_id": "2",
+      "label": "2",
+      "title": "Cold",
+      "color": "contras"
+    },
+    {
+      "id": "3",
+      "board_id": "3",
+      "label": "3",
+      "title": "Warm",
+      "color": "warning"
+    },
+    {
+      "id": "4",
+      "board_id": "4",
+      "label": "",
+      "title": "Hot",
+      "color": "danger"
+    },
+    {
+      "id": "5",
+      "board_id": "5",
+      "label": "",
+      "title": "Sales",
+      "color": "success"
+    }
+  ]
+}

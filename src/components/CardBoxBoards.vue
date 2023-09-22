@@ -44,27 +44,19 @@ defineProps({
     type: String,
     default: null,
   },
-  trend: {
-    type: String,
-    default: null,
-  },
-  trendType: {
-    type: String,
-    default: null,
-  },
 });
 </script>
 
 <template>
   <CardBox>
     <BaseLevel class="mb-3" mobile>
-      <p class="text-2xl">{{ title }}</p>
+      <p class="text-xl">{{ title }}</p>
       <BaseButton :icon="mdiCog" icon-w="w-4" icon-h="h-4" color="lightDark" small />
     </BaseLevel>
     <BaseLevel mobile>
       <div class="inline-flex gap-x-8">
         <div>
-          <h3 class="text-lg leading-tight text-gray-500 dark:text-slate-400">
+          <h3 class="text-sm leading-tight text-gray-500 dark:text-slate-400">
             {{ labelInbox }}
           </h3>
           <h1 class="text-xl leading-tight font-semibold">
@@ -72,7 +64,7 @@ defineProps({
           </h1>
         </div>
           <div>
-            <h3 class="text-lg leading-tight text-gray-500 dark:text-slate-400">
+            <h3 class="text-sm leading-tight text-gray-500 dark:text-slate-400">
               {{ labelSales }}
             </h3>
             <h1 class="text-xl leading-tight font-semibold">
@@ -80,7 +72,7 @@ defineProps({
             </h1>
           </div>
       </div>
-      <BaseIcon v-if="icon" :path="icon" size="48" w="" h="h-16" :class="color" />
+      <BaseIcon v-if="icon" :path="icon" size="32" w="" h="h-16" :class="color" />
     </BaseLevel>
   </CardBox>
 </template>

@@ -1,0 +1,40 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "title": "Let's Grow",
+      "numberInbox": 342,
+      "numberSales": 432
+    },
+    {
+      "id": 2,
+      "title": "Toko Baju Muslim",
+      "numberInbox": 122,
+      "numberSales": 1232
+    },
+    {
+      "id": 3,
+      "title": "Toko Makmur",
+      "numberInbox": 3542,
+      "numberSales": 1232
+    },
+    {
+      "id": 4,
+      "title": "Jual Laptop",
+      "numberInbox": 242,
+      "numberSales": 132
+    },
+    {
+      "id": 5,
+      "title": "Naswa Store",
+      "numberInbox": 522,
+      "numberSales": 432
+    },
+    {
+      "id": 6,
+      "title": "Mie Ayam Enak",
+      "numberInbox": 222,
+      "numberSales": 1242
+    }
+  ]
+}

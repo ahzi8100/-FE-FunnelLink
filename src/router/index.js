@@ -14,11 +14,15 @@ const routes = [
   },
   {
     meta: {
-      title: "Board Funneling",
+      title: "Boards Funneling",
     },
-    path: "/board-funneling",
-    name: "board funneling",
-    component: () => import('@/views/BoardFunnelingView.vue'),
+    path: "/boards",
+    name: "boards-funneling",
+    children: [
+      { path: "", name: "Boards Funneling", component: () => import('@/views/funneling/BoardsFunnelingView.vue')},
+      { path: "create", name: "Create Funneling", component: () => import('@/views/funneling/CreateFunnelingView.vue')},
+      { path: "funneling/:id", name: "Show Funneling", component: () => import('@/views/funneling/ShowFunnelingView.vue')},
+    ]
   },
   {
     meta: {
